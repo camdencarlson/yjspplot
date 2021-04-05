@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
         <title>
             yjspplotter
         </title>
     </head>
     <body>
-        <img {{content}}>
+        <img src="{{ url_for('static',filename='Circular Logo.png') }}"/>
         <form action="#" method=post>
             <p>Enter channel number(s)</p>
             
